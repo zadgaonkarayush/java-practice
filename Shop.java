@@ -20,7 +20,7 @@ public class Shop {
 
         System.out.println("You have bought :" + quantity + " " + item);
 
-        System.out.print("And your total is:" + total);
+        System.out.print("And your total is 😊:" + total   );
         scanner.close();
     }
 }
