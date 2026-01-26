@@ -16,6 +16,9 @@ public class LString {
         //toUpperCase()
         //trim()
         //replace("a","y")
+        //.contains("") check for it contains valueor not
+        //.equals() check it si equal or not
+        //equalsIgnoreCase() to ignore case upper or lower
 
         String replace = name.replace("a","u");
         System.out.println(replace);
