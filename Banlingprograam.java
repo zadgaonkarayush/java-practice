@@ -33,6 +33,7 @@ public class Banlingprograam {
                     System.out.print("Invalid choice");
                 }
             }
+            scanner.close();
         }
 
     }
