@@ -62,7 +62,7 @@ public class QuizGame {
                 System.out.println("######## ");
             }
         }
-        System.out.println("Your total score is: " + total);
+        System.out.println("Your total score is: " + total + " out of  " + questions.length);
 
         scanner.close();
 
