@@ -32,12 +32,17 @@ public class Main {
 
         //contructor is special method to initialize a object . You can pass arguments to a constructor,
         //  and set up inital value
-        Student student1 = new Student("ayush",24);
-        Student student3 = new Student("raj",67);
-        System.out.println(student1.name);
-        System.out.println(student3.name);
-        student1.study();
+        // Student student1 = new Student("ayush",24);
+        // Student student3 = new Student("raj",67);
+        // System.out.println(student1.name);
+        // System.out.println(student3.name);
+        // student1.study();
 
+        Cat cat = new Cat();
+        Dog dog = new Dog();
+
+       dog.start();
+               cat.start();
 
 
 
