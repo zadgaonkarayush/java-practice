@@ -38,12 +38,18 @@ public class Main {
         // System.out.println(student3.name);
         // student1.study();
 
-        Cat cat = new Cat();
-        Dog dog = new Dog();
+    //     Cat cat = new Cat();
+    //     Dog dog = new Dog();
 
-       dog.start();
-               cat.start();
+    //    dog.start();
+    //            cat.start();
 
+    Circle circle = new Circle(5);
+    Rectangle rect = new Rectangle();
+       
+    circle.display();
+    rect.display();
+    System.out.println(circle.area());
 
 
     }
