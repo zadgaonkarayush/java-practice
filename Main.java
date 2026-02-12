@@ -44,13 +44,22 @@ public class Main {
     //    dog.start();
     //            cat.start();
 
-    Circle circle = new Circle(5);
-    Rectangle rect = new Rectangle();
+    // Circle circle = new Circle(5);
+    // Rectangle rect = new Rectangle();
        
-    circle.display();
-    rect.display();
-    System.out.println(circle.area());
+    // circle.display();
+    // rect.display();
+    // System.out.println(circle.area());
 
+        //  String a ="Ayush";
+        //  String b ="Ayush";
 
+        //  System.out.println(a == b);
+        //     System.out.println(a.charAt(0));
+        //        System.out.println(a.equals(b));
+
+        Student s = new Student("Ayush", 23);
+
+        s.display();
     }
 }
