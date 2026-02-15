@@ -61,16 +61,16 @@ public class Main {
         // Student s = new Student("Ayush", 23);
 
         // s.display();
-        String num ="74206";
+        // String num ="74206";
 
-         for(int i=num.length()-1;i>=0;i--){
-          if((num.charAt(i)-'0')%2 ==1){
-            System.out.println(num.charAt(i));
-           System.out.println(num.substring(0,i+1));
-           // return;
-          }
-        }
-        System.out.println("");
+        //  for(int i=num.length()-1;i>=0;i--){
+        //   if((num.charAt(i)-'0')%2 ==1){
+        //     System.out.println(num.charAt(i));
+        //    System.out.println(num.substring(0,i+1));
+        //    // return;
+        //   }
+        // }
+        // System.out.println("");
         
     }
 }
