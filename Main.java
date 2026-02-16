@@ -71,6 +71,17 @@ public class Main {
         //   }
         // }
         // System.out.println("");
+       String s="anagram";
+       String t="gramana";
+       int [] count = new int[26];
+
+       for(int i=0;i<s.length();i++){
+        count[s.charAt(i) - 'a']++;
+        count[t.charAt(i) - 'a']++;
+       }
+for(int c:count){
+    System.out.println(c);
+}
         
     }
 }
